@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "How to Create Responsive Designs",
+      "publishedAt": "2024-10-02T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Responsive design is crucial for modern web applications. Learn how to use CSS and frameworks like Mantine to achieve it.",
+      "author": "Alice Brown"
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Mantine",
+      "publishedAt": "2024-10-01T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Mantine is a full-featured React component library that helps you build fast and responsive UIs.",
+      "author": "Jane Smith"
+    },
+    {
+      "id": 1,
+      "title": "Understanding Next.js",
+      "publishedAt": "2024-09-30T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Next.js is a powerful React framework that allows server-side rendering and static site generation.",
+      "author": "John Doe"
+    },
+    {
+      "id": 6,
+      "title": "Exploring Tailwind CSS for Styling",
+      "publishedAt": "2024-09-29T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Tailwind CSS is a utility-first framework that makes styling your web apps quick and efficient.",
+      "author": "Sophia White"
+    },
+    {
+      "id": 5,
+      "title": "Deploying with Vercel: A Step-by-Step Guide",
+      "publishedAt": "2024-09-28T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Learn how to deploy your Next.js projects effortlessly using Vercel's hosting platform.",
+      "author": "Rachel Blue"
+    },
+    {
+      "id": 10,
+      "title": "A Deep Dive into Web Accessibility",
+      "publishedAt": "2024-09-26T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Accessibility is crucial for building inclusive web experiences. This guide covers the essentials of web accessibility.",
+      "author": "Emma Silver"
+    },
+    {
+      "id": 4,
+      "title": "JavaScript Best Practices in 2024",
+      "publishedAt": "2024-09-25T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Explore the latest best practices in JavaScript development to improve code efficiency and readability.",
+      "author": "Michael Green"
+    },
+    {
+      "id": 8,
+      "title": "Building Reusable UI Components with Mantine",
+      "publishedAt": "2024-09-22T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Mantine allows you to build highly reusable UI components that can be styled and customized easily.",
+      "author": "Olivia Black"
+    },
+    {
+      "id": 7,
+      "title": "State Management in React: A Complete Guide",
+      "publishedAt": "2024-09-20T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "Managing state in React can be challenging. Learn the different techniques for handling state effectively.",
+      "author": "Daniel Grey"
+    },
+    {
+      "id": 9,
+      "title": "Integrating GraphQL with Next.js",
+      "publishedAt": "2024-09-18T00:00:00-03:00",
+      "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "content": "GraphQL is a powerful query language. Learn how to integrate it into your Next.js project for better data handling.",
+      "author": "Matthew Gold"
+    }
+  ],
+
+  "post": {
+    "id": 1,
+    "title": "Understanding Next.js",
+    "publishedAt": "2024-09-30T00:00:00-03:00",
+    "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "## What is Next.js?\nNext.js is a powerful React framework that enables server-side rendering and static site generation. It provides a set of features that make building and deploying modern web applications much easier, including routing, code splitting, and automatic static optimization.\n\n## Why Use Next.js?\n1. **Server-Side Rendering (SSR)**: By default, Next.js pre-renders pages at build time, allowing for improved SEO and faster loading times.\n2. **Static Site Generation (SSG)**: Pages can be generated at build time, creating static files for faster performance.\n3. **API Routes**: Easily create backend APIs without needing to set up a separate server.\n\n## Setting Up a Next.js Project\nTo create a new Next.js application, run the following command:\n```\nnpx create-next-app my-next-app\n```\nThis will scaffold a new Next.js project with all the necessary files and configurations.\n\n## Key Features of Next.js\n- **File-based Routing**: Each page corresponds to a file in the `pages` directory.\n- **API Routes**: Define server-side functions that run directly on Vercel or any Node.js server.\n- **Dynamic Routing**: Create routes dynamically using `[param].js` syntax in the `pages` directory.\n\n## Deployment and Hosting\nNext.js applications are optimized for deployment on platforms like Vercel, which provides built-in support for serverless functions, automatic deployments, and real-time updates.\n\nDeploy your Next.js project using:\n```\ngit push origin main\n```\nThis will trigger the deployment process on platforms like Vercel if connected.\n\n## Conclusion\nNext.js is a comprehensive framework that simplifies complex features in modern web development, such as SSR, SSG, and API integration. Whether you're building a simple blog or a complex e-commerce site, Next.js offers the tools and performance benefits to create powerful applications.",
+    "author": "John Doe"
+  }
+}
